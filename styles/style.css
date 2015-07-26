@@ -1,0 +1,68 @@
+
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+
+div.header,.entrybox,.lists{
+	outline:1px solid red;
+	color:white;
+	background-color:white;
+	color:black;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+
+div.header{
+width: 400px;
+height:75px;
+font-size: 3em;
+}
+
+div.entrybox{
+width: 400px;
+height:100px;
+
+}
+
+div.lists{
+width:400px;
+height:100%;
+
+}
+
+button.addbutton{
+	height: 20px;
+	width:20px;
+	border-radius: 0px 0px 200px 200px;
+	border: 0px;
+	background-color: red;
+}
+
+div.todolist,.donelist{
+	outline:1px dashed red;
+}
+
+#todolist,#donelist{
+	text-align: justify;
+}
+
+li{
+	word-wrap:break-word;
+}
