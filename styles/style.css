@@ -55,7 +55,6 @@ button.addbutton{
 }
 
 div.todolist,.donelist{
-	outline:1px dashed red;
 }
 
 #todolist,#donelist{
